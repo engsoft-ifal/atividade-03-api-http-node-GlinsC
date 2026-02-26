@@ -6,7 +6,6 @@ let protocolos = [
 ]
 
 const servidor = http.createServer((req, res) => {
-    console.log("Servidor rodando na porta 3000")
     if (req.method === "GET" && req.url === "/protocolos") {
         res.writeHead(200, { "Content-type": "application/json" })
 
@@ -102,6 +101,6 @@ const servidor = http.createServer((req, res) => {
 
 }
 )
-
+console.log("Servidor rodando na porta 3000")
 servidor.listen(3000)
 
