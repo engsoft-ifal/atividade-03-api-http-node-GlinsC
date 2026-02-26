@@ -47,7 +47,9 @@ Os dados deverão ser armazenados em memória (array).
 Edite esta seção antes de iniciar.
 
 Nome completo: Gabriel Lins Correia
+
 Matrícula:2023007786
+
 Variação calculada:2
 
 Cálculo da variação:
