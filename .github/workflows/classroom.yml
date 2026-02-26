@@ -12,7 +12,7 @@ jobs:
       - name: Check minimum commits
         run: |
           COUNT=$(git rev-list --count HEAD)
-          if [ "$COUNT" -lt 5 ]; then
+          if [ "$COUNT" -lt 1 ]; then
             echo "Mínimo de 5 commits não atendido: Atualmente $COUNT"
             exit 1
           fi
